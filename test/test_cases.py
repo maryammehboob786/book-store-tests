@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Test cases for the Gaming Ecommerce application
 class GamingEcommerceTests(unittest.TestCase):
-    BASE_URL = 'http://100.26.107.103:3000/'
+    BASE_URL = 'http://34.235.115.176/:3000/'
     TIMEOUT = 120  # seconds
 
     @classmethod
@@ -101,8 +101,8 @@ class GamingEcommerceTests(unittest.TestCase):
 
     def test_application_running_on_server(self):
         self.driver.get(self.BASE_URL)
-        self.wait.until(EC.url_contains('54.193.129.133'))
-        self.assertIn('54.193.129.133', self.driver.current_url)
+        self.wait.until(EC.url_contains('34.235.115.176'))
+        self.assertIn('34.235.115.176', self.driver.current_url)
 
     def test_footer_presence_on_home_page(self):
         self.driver.get(self.BASE_URL)
