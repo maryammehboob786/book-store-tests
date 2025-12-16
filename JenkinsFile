@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        APP_REPO = 'https://github.com/thatisawais/gaming-store.git'
-        TEST_REPO = 'https://github.com/thatisawais/gaming-store-test-cases.git'
+        APP_REPO = 'https://github.com/AliHere76/gaming-store.git'
+        TEST_REPO = 'https://github.com/AliHere76/gaming-store-test.git'
         APP_IMAGE = 'gaming-ecommerce-app'
         TEST_IMAGE = 'gaming-ecommerce-tests'
     }
